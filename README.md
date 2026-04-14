@@ -51,18 +51,21 @@ By default, even high-tier security identities are kept in an "Eligible" (dorman
 ### 2. The JIT Elevation Workflow
 To perform administrative duties, the identity must request temporary elevation. This workflow enforces a strict verification process, requiring Multi-Factor Authentication (MFA) and a documented business justification for the audit trail.
 > *The 3-stage Azure PIM activation sequence validating the request.*
-
-
+<img width="1907" height="933" alt="image" src="https://github.com/user-attachments/assets/883ad9f2-29e8-4a7b-b262-2d97e0bff24d" />
+<img width="1912" height="934" alt="image" src="https://github.com/user-attachments/assets/0237c62c-11a2-4d0d-a2b0-7a10927c52f6" />
+<img width="1908" height="933" alt="image" src="https://github.com/user-attachments/assets/123a1869-4bc1-4e9a-80d0-5898c0be9869" />
 
 
 ### 3. Time-Bound Active Assignment
 Once approved, the identity is granted the `Contributor` role for a strictly limited window (configured to a maximum of 2 hours to minimize the attack surface). The Azure control plane actively tracks the expiration timestamp.
 > *Active role assignment tracking showing the exact minute the privilege will be automatically revoked.*
+<img width="1910" height="936" alt="image" src="https://github.com/user-attachments/assets/a4de8731-1b5f-4492-931a-e579d93bba8e" />
 
 
 ### 4. Elevated Execution
 With the JIT access successfully provisioned, the architectural block is lifted, allowing the administrator to deploy critical infrastructure within the approved time window safely.
 > *Successful bypass of the RBAC restriction post-elevation, allowing the creation of the `TesteHacker_group`.*
+<img width="1908" height="936" alt="image" src="https://github.com/user-attachments/assets/a7ba2abc-fd5e-4101-8a81-58ee94dd6d48" />
 
 
 **Skills Applied:** Privileged Access Management (PAM), Azure PIM, JIT Access, NIST PR.AC, Audit Compliance.
