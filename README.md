@@ -87,8 +87,7 @@ When an identity's credentials are computationally verified to be leaked on the 
 Due to strict security testing ethics, simulating a real credential leak on public pastebins is prohibited. However, the defensive architecture was deployed via Conditional Access to ensure zero-day mitigation.
 
 The `MITRE-User-Risk-PasswordReset` policy is configured to intercept any authentication attempt from an identity flagged with High User Risk. Instead of merely blocking access (which causes operational downtime), the policy forces a secure **Password Change** flow, requiring the user to prove their identity via MFA before establishing a new, uncompromised password.
+<img width="1912" height="1029" alt="image" src="https://github.com/user-attachments/assets/f3c574b7-0d68-4785-b2bc-38f6517c8e0f" />
 
-> *[COLE AQUI UM PRINT DA SUA POLÍTICA CONFIGURADA MOSTRANDO AS CONDIÇÕES E CONTROLES]*
-<img width="1000" alt="User Risk Policy" src="[LINK_AQUI]" />
 
 **Skills Applied:** Threat Intelligence Integration, Conditional Access User Risk, Automated Incident Remediation (SOAR concepts), Credential Access Mitigation.
