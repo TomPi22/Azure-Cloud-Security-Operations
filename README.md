@@ -115,3 +115,32 @@ By executing targeted KQL (Kusto Query Language) queries, the SOC can instantly 
 
 
 **Skills Applied:** SIEM Configuration, Data Connector Engineering, KQL (Kusto Query Language), Security Operations (SecOps), Alert Triage.
+
+
+---
+
+## ⚖️ Project 13: Identity Governance & Automated Access Reviews
+
+**Objective:** Implement a continuous governance framework to eliminate "Privilege Creep" by automating the periodic re-validation of user access rights, specifically targeting sensitive security groups.
+
+**Framework & Compliance Alignment:**
+* **ISO 27001 (A.9.2.5):** Review of user access rights.
+* **GDPR (Data Minimization & Integrity):** Ensuring only currently authorized personnel retain access to environments mapped to the Dublin operations.
+
+### 1. The Governance Gap
+Manual access audits are prone to human error and often result in orphaned accounts retaining high-level permissions. To mitigate this vulnerability, an automated **Access Review** workflow was engineered within Entra ID Identity Governance.
+
+### 2. Live Campaign Execution
+The workflow `Quarterly-Security-Audit-Dublin` was deployed and is actively monitoring the `Auditores-Irlanda` security group. The engine is configured with a continuous monthly recurrence, ensuring compliance without manual IT intervention.
+> *Evidence of the Active Identity Governance campaign targeting the specific security group.*
+
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/f1f98195-9926-4a77-8dab-e0e38c1d1f01" />
+
+
+### 3. Automated Remediation Logic ("Deny by Default")
+The policy is strictly configured for automated remediation. If a designated reviewer fails to validate a user's continued need for access within the 3-day review window, the system defaults to a secure posture: the identity is automatically evicted from the security group.
+
+### 4. AI-Assisted Decision Making
+Utilizing Azure's "Inactive User" telemetry, the system provides reviewers with data-driven recommendations, highlighting identities that haven't performed a sign-in within the last 30 days, further reducing the organization's attack surface.
+
+**Skills Applied:** Identity Governance, Compliance Automation (ISO/GDPR), Access Review Orchestration, Risk Mitigation.
