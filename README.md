@@ -144,3 +144,32 @@ The policy is strictly configured for automated remediation. If a designated rev
 Utilizing Azure's "Inactive User" telemetry, the system provides reviewers with data-driven recommendations, highlighting identities that haven't performed a sign-in within the last 30 days, further reducing the organization's attack surface.
 
 **Skills Applied:** Identity Governance, Compliance Automation (ISO/GDPR), Access Review Orchestration, Risk Mitigation.
+
+---
+
+## 🛡️ Project 14: Cloud Workload Protection Platform (CWPP) via Microsoft Defender
+
+**Objective:** Secure IaaS (Infrastructure as a Service) resources by enabling automated threat detection, vulnerability assessment, and malware defense across all Azure Virtual Machines.
+
+**Framework & Compliance Alignment:**
+* **CIS Controls (v8):** Control 9 (Malware Defenses) and Control 7 (Continuous Vulnerability Management).
+* **NIST SP 800-53:** System and Information Integrity (SI) controls.
+
+### 1. Enabling CWPP (Microsoft Defender for Servers)
+To shift from a reactive to a proactive defense posture, Microsoft Defender for Cloud was enabled at the subscription level, specifically activating the **Defender for Servers** plan. This operationalizes the Cloud Workload Protection Platform (CWPP).
+
+### 2. Automated Agent Provisioning (Zero-Touch Security)
+Security agents should not rely on manual deployment. The environment was configured for auto-provisioning. Upon the creation of any new virtual machine (Linux or Windows), the Azure fabric will automatically inject the Microsoft Defender for Endpoint agent and the Vulnerability Assessment scanner.
+
+> *Proof of architectural configuration: Defender for Servers activated at the subscription level.*
+
+<img width="1912" height="1031" alt="image" src="https://github.com/user-attachments/assets/ac99bb22-2c44-4b21-ba67-0b73a73f8e42" />
+
+<img width="1915" height="1029" alt="image" src="https://github.com/user-attachments/assets/fb98c58b-a305-4739-b967-d37b657a7900" />
+
+<img width="1916" height="1027" alt="image" src="https://github.com/user-attachments/assets/273836a1-ecab-4ae5-b084-1b53cb7ed2f9" />
+
+### 3. Continuous Vulnerability Management
+With this architecture in place, any compute workload deployed for future NOC/SOC labs will be immediately assessed for OS misconfigurations, missing patches, and active malware threats, streaming alerts directly back to our Microsoft Sentinel SIEM.
+
+**Skills Applied:** Microsoft Defender for Cloud (MDC), CWPP, Auto-provisioning, Vulnerability Management, IaaS Security.
