@@ -173,3 +173,32 @@ Security agents should not rely on manual deployment. The environment was config
 With this architecture in place, any compute workload deployed for future NOC/SOC labs will be immediately assessed for OS misconfigurations, missing patches, and active malware threats, streaming alerts directly back to our Microsoft Sentinel SIEM.
 
 **Skills Applied:** Microsoft Defender for Cloud (MDC), CWPP, Auto-provisioning, Vulnerability Management, IaaS Security.
+
+
+---
+
+## ⚔️ Project 15: Purple Team Operations (Brute Force Simulation vs. CWPP)
+
+**Objective:** Validate the efficacy of the Cloud Workload Protection Platform (CWPP) and SIEM ingestion by executing a controlled Red Team brute-force attack against an intentionally vulnerable IaaS honeypot.
+
+**Framework Alignment:** * **MITRE ATT&CK:** Credential Access (TA0006) -> Brute Force (T1110).
+* **Defensive Posture:** Active Threat Detection and SIEM Alerting.
+
+### 1. The Vulnerable Honeypot (Red Team Setup)
+An Ubuntu Server VM was deployed mimicking poor security practices: SSH (Port 22) exposed to the public internet and configured for password-based authentication instead of cryptographic keys. 
+
+### 2. The Attack Execution
+A dictionary-based brute-force attack was launched from an external Linux terminal using `hydra`, continuously hammering the Honeypot's public IP with thousands of unauthorized authentication attempts.
+
+### 3. Detection & SOC Visibility (Blue Team Response)
+The automated Microsoft Defender agent (deployed in Project 14) successfully monitored the OS-level syslogs, detected the anomaly, and immediately generated an "Unusual number of failed sign-in attempts" alert. 
+
+Because of the architectural pipeline established in Project 12, this Threat Intelligence was instantly routed to Microsoft Sentinel, providing the SOC analysts with actionable data (Target IP, Attacker IP, and MITRE classification) to initiate incident containment.
+
+> *Proof of Detection: Microsoft Defender / Sentinel successfully capturing the Brute Force attack.*
+
+<img width="1912" height="1030" alt="image" src="https://github.com/user-attachments/assets/f9a869d3-7d0c-4e11-b662-32bad152b0e8" />
+
+<img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/8cd14129-71cd-4b04-927f-15aaca2902f3" />
+
+**Skills Applied:** Red Teaming (Hydra, Brute Force), Blue Teaming, Honeypot Deployment, Incident Detection, MITRE ATT&CK Mapping.
