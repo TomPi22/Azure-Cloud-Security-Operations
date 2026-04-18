@@ -217,3 +217,28 @@ Because of the architectural pipeline established in Project 12, this Threat Int
 
 ## Fase 4: 2026 Threat Landscape & Automation (Security Architect)
 
+## 🛡️ Project 16: Defeating AI-Driven Social Engineering (Phishing-Resistant MFA)
+
+**Objective:** Mitigate the risk of advanced social engineering attacks, such as AI voice cloning (vishing) and MFA bypass, by enforcing Phishing-Resistant Authentication Strengths via Conditional Access.
+
+**Framework & Threat Alignment:**
+* **Cybersecurity Forecast 2026:** Cybercriminals will continue to utilize initial access strategies such as voice phishing (vishing) and other targeted social engineering techniques to bypass multi-factor authentication (MFA).
+* **Infosec Skills Playbook:** Security Architecture & Cloud Security Engineering.
+* **MITRE ATT&CK:** Credential Access (TA0006) -> Multi-Factor Authentication Interception (T1111).
+
+### 1. The Evolving Threat Landscape (AI-Vishing)
+Traditional Multi-Factor Authentication (SMS, Voice, or simple App Push) is no longer sufficient. Vishing is poised to incorporate AI-driven voice cloning to create hyperrealistic impersonations. This allows threat actors to bypass standard MFA prompts by socially engineering the victim.
+
+### 2. Architectural Defense (Authentication Strengths)
+To protect highly privileged accounts, an advanced Conditional Access policy was architected utilizing Entra ID **Authentication Strengths**. 
+
+The policy strictly mandates **Phishing-Resistant MFA**. This configuration explicitly rejects susceptible methods (SMS/Push) and only permits cryptographically secure, hardware-bound authentication (such as FIDO2 security keys or Windows Hello for Business), ensuring that even if an attacker successfully extracts a password and intercepts a traditional token via social engineering, access remains mathematically impossible.
+
+> *Proof of Architecture: Conditional Access policy enforcing Phishing-Resistant MFA.*
+
+<img width="1914" height="1022" alt="image" src="https://github.com/user-attachments/assets/4786103c-a43b-4f58-8a6f-fbbc4e20b5ce" />
+
+
+**Skills Applied:** Advanced Conditional Access, Zero Trust Architecture, Identity and Access Management (IAM), Phishing-Resistant MFA, Threat Mitigation (AI-driven attacks).
+
+
