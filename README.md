@@ -242,3 +242,24 @@ The policy strictly mandates **Phishing-Resistant MFA**. This configuration expl
 **Skills Applied:** Advanced Conditional Access, Zero Trust Architecture, Identity and Access Management (IAM), Phishing-Resistant MFA, Threat Mitigation (AI-driven attacks).
 
 
+## 🤖 Project 17: Automated Incident Response (SOAR Playbooks)
+
+**Objective:** Drastically reduce the Mean Time to Respond (MTTR) to critical security incidents by engineering automated containment workflows using Microsoft Sentinel SOAR (Security Orchestration, Automation, and Response) capabilities.
+
+**Framework & Threat Alignment:**
+* **Cybersecurity Forecast 2026:** Transitioning to an "Agentic SOC" model where analysts shift from manual data correlation to strategic validation of automated AI workflows.
+* **SOC Operations:** Incident Triage, Containment, and Automation.
+
+### 1. The MTTR Vulnerability
+In a traditional SOC environment, the gap between alert generation and human containment provides adversaries with a critical window to exfiltrate data or deploy ransomware payloads. Relying solely on manual analyst intervention is a severe architectural bottleneck.
+
+### 2. Autonomous Containment Architecture
+To close this gap, an automated SOAR playbook (`SOAR-Contain-Compromised-User`) was engineered utilizing Azure Logic Apps integrated natively with Microsoft Sentinel.
+
+The workflow operates on a zero-latency containment strategy. Upon the generation of a high-severity incident (such as the Brute Force detection from Project 15 or an Impossible Travel alert), the playbook is triggered autonomously. The orchestration engine immediately interfaces with the Microsoft Entra ID Graph API to execute an "Update User" command, forcefully disabling the compromised identity and terminating all active sessions before the attacker can pivot laterally.
+
+> *Proof of Architecture: Logic App Designer illustrating the SOAR incident trigger and the Entra ID containment action.*
+
+<img width="1916" height="1031" alt="image" src="https://github.com/user-attachments/assets/c082e52a-a6d2-4bc4-9be5-5e5a00bb05f4" />
+
+**Skills Applied:** Microsoft Sentinel, SOAR, Azure Logic Apps, API Integrations, Incident Containment, Zero Trust Automation.
