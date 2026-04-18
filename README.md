@@ -8,6 +8,16 @@ These projects align with the core competencies required for SOC Analyst and Clo
 
 ---
 
+## 📑 Índice de Arquitetura (Table of Contents)
+
+* [Fase 1: Cloud Security Fundamentals (Cybersecurity Beginner)](#fase-1-cloud-security-fundamentals-cybersecurity-beginner)
+* [Fase 2: Identity Governance & Zero Trust Architecture (Cloud Security Engineer)](#fase-2-identity-governance--zero-trust-architecture-cloud-security-engineer)
+* [Fase 3: Advanced SOC Operations & Threat Hunting (SOC Analyst)](#fase-3-advanced-soc-operations--threat-hunting-soc-analyst)
+* [Fase 4: 2026 Threat Landscape & Automation (Security Architect)](#fase-4-2026-threat-landscape--automation-security-architect)
+
+---
+
+## Fase 2: Identity Governance & Zero Trust Architecture (Cloud Security Engineer)
 ## 🛡️ Project 8: Zero Trust Architecture & Geofencing (Conditional Access)
 
 **Objective:** Implement a Zero Trust perimeter using Microsoft Entra ID (formerly Azure AD) Conditional Access Policies to protect administrative accounts from foreign unauthorized access, even in the event of credential compromise.
@@ -71,7 +81,7 @@ With the JIT access successfully provisioned, the architectural block is lifted,
 **Skills Applied:** Privileged Access Management (PAM), Azure PIM, JIT Access, NIST PR.AC, Audit Compliance.
 
 
----
+## Fase 3: Advanced SOC Operations & Threat Hunting (SOC Analyst)
 
 ## 🕵️‍♂️ Project 11: Dark Web Credential Leak Mitigation (User Risk Policy)
 
@@ -199,6 +209,11 @@ Because of the architectural pipeline established in Project 12, this Threat Int
 
 <img width="1912" height="1030" alt="image" src="https://github.com/user-attachments/assets/f9a869d3-7d0c-4e11-b662-32bad152b0e8" />
 
+
 <img width="1919" height="1030" alt="image" src="https://github.com/user-attachments/assets/8cd14129-71cd-4b04-927f-15aaca2902f3" />
 
 **Skills Applied:** Red Teaming (Hydra, Brute Force), Blue Teaming, Honeypot Deployment, Incident Detection, MITRE ATT&CK Mapping.
+
+
+## Fase 4: 2026 Threat Landscape & Automation (Security Architect)
+
