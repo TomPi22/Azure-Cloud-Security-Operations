@@ -4,7 +4,7 @@ Welcome to my Cloud Security portfolio. This repository documents my hands-on ex
 
 These projects align with the core competencies required for SOC Analyst and Cloud Security Engineering roles, drawing upon frameworks from CompTIA Security+, AZ-900, and AZ-500.
 
-> 🔗 **[For my foundational on-premises infrastructure and NOC projects, click here.](https://github.com/TomPi22/IT_Support_HomeLab)**
+> 🔗 **[For my foundational on-premises infrastructure and NOC projects (Cybersecurity Beginner), click here.](https://github.com/TomPi22/IT_Support_HomeLab)**
 
 ---
 
