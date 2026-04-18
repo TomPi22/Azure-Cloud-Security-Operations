@@ -8,7 +8,7 @@ These projects align with the core competencies required for SOC Analyst and Clo
 
 ---
 
-## 📑 Índice de Arquitetura (Table of Contents)
+## 📑 Architecture Index (Table of Contents)
 
 * [Fase 1: Cloud Security Fundamentals (Cybersecurity Beginner)](#fase-1-cloud-security-fundamentals-cybersecurity-beginner)
 * [Fase 2: Identity Governance & Zero Trust Architecture (Cloud Security Engineer)](#fase-2-identity-governance--zero-trust-architecture-cloud-security-engineer)
