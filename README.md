@@ -295,6 +295,8 @@ Foi implementado um **Recovery Services Vault** configurado com **Imutabilidade 
 
 > *Evidência de Arquitetura: Configurações de Imutabilidade e Segurança do Recovery Vault.*
 
+<img width="1917" height="1030" alt="image" src="https://github.com/user-attachments/assets/49d2603b-96ba-4ec3-9328-077544394bcc" />
+
 <img width="1912" height="1024" alt="image" src="https://github.com/user-attachments/assets/69abba46-327f-4f51-ab94-d7ecbd56fb98" />
 
 <img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/258e7ce2-fa51-41f3-af9b-6a77446da522" />
