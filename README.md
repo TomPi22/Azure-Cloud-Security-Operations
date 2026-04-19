@@ -263,3 +263,40 @@ The workflow operates on a zero-latency containment strategy. Upon the generatio
 <img width="1916" height="1031" alt="image" src="https://github.com/user-attachments/assets/c082e52a-a6d2-4bc4-9be5-5e5a00bb05f4" />
 
 **Skills Applied:** Microsoft Sentinel, SOAR, Azure Logic Apps, API Integrations, Incident Containment, Zero Trust Automation.
+
+
+## 📊 Projeto 18: Cloud Security Posture Management (CSPM) & Conformidade
+
+**Objetivo:** Avaliar e melhorar continuamente a postura de segurança do ambiente em nuvem em relação a frameworks de conformidade globais (ex: CIS v8, ISO 27001) utilizando o Microsoft Defender for Cloud CSPM.
+
+**Alinhamento com Frameworks:**
+* **Arquitetura de Segurança:** Avaliação proativa de riscos e remediação de configurações incorretas.
+* **Infosec Skills Playbook:** Auditoria e manutenção de infraestrutura de nuvem segura.
+
+### Execução
+Utilizando o motor de CSPM do Defender, o **Secure Score** do tenant foi analisado em tempo real. Configurações incorretas de alta prioridade — como portas de gestão (RDP/SSH) expostas e falta de MFA em contas privilegiadas — foram mapeadas para fluxos de remediação. Esta implementação demonstra a transição de um modelo de segurança reativo para um modelo de endurecimento (hardening) proativo, essencial para arquiteturas modernas de governança.
+
+> *Evidência de Arquitetura: Painel de Secure Score e Recomendações de Conformidade.*
+
+<img width="1918" height="1028" alt="image" src="https://github.com/user-attachments/assets/698abc76-dd3a-4e8f-a3c6-f7fc9e0c4c2c" />
+
+**Skills Applied:** Cloud Security Posture Management (CSPM), Compliance Auditing (ISO 27001 / CIS Controls), Risk Assessment & Remediation, Microsoft Defender for Cloud, Security Hardening.
+
+## 💾 Projeto 19: Resiliência contra Ransomware & Arquitetura de Cofre Imutável
+
+**Objetivo:** Arquitetar uma estratégia de Recuperação de Desastres (DR) e Resiliência de Dados capaz de resistir a ataques de Ransomware e campanhas de dupla extorsão.
+
+**Alinhamento com Frameworks & Ameaças:**
+* **Cybersecurity Forecast 2026:** Grupos criminosos focarão na destruição de backups e infraestrutura de virtualização para maximizar o impacto da extorsão.
+* **NIST CSF (Recover - RC):** Garantir a restauração de serviços mesmo após comprometimento total da conta administrativa.
+
+### Execução
+Foi implementado um **Recovery Services Vault** configurado com **Imutabilidade (Vault Immutability)** e **Soft-Delete**. Esta camada de proteção Zero Trust garante que, mesmo que um atacante obtenha credenciais de Administrador Global, os dados de backup permaneçam inalteráveis e impossíveis de excluir durante o período de retenção definido. Esta arquitetura é o pilar final da continuidade de negócio para operações críticas de agrotecnologia e serviços em nuvem.
+
+> *Evidência de Arquitetura: Configurações de Imutabilidade e Segurança do Recovery Vault.*
+
+<img width="1912" height="1024" alt="image" src="https://github.com/user-attachments/assets/69abba46-327f-4f51-ab94-d7ecbd56fb98" />
+
+<img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/258e7ce2-fa51-41f3-af9b-6a77446da522" />
+
+**Skills Applied:** Disaster Recovery (DR) Architecture, Backup Immutability, Ransomware Defense & Mitigation, Business Continuity, Zero Trust Data Resiliency.
