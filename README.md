@@ -342,5 +342,27 @@ Within the vault, a 2048-bit RSA **Customer-Managed Key (CMK)** was forged. This
 
 <img width="1910" height="1023" alt="image" src="https://github.com/user-attachments/assets/7775446a-3a29-4fb6-9af8-1cbd6b655842" />
 
-
 **Skills Applied:** Azure Key Vault, Cryptography (RSA/CMK), Data-Plane Security, Vault Access Policies, Zero Trust Data Protection.
+
+
+
+## 👁️ Project 22: PaaS Network Isolation & SIEM Telemetry
+
+**Objective:** Eliminate public attack surfaces on Platform-as-a-Service (PaaS) resources and establish centralized SOC visibility by routing cryptographic audit logs to Microsoft Sentinel.
+
+**Framework & Threat Alignment:**
+* **Security Architecture:** Defense-in-Depth, Network Isolation (PaaS Firewall).
+* **SOC Analyst / SANS SEC541:** Cloud infrastructure telemetry and continuous monitoring.
+
+### Execution
+To harden the Azure Key Vault (`KVDublinSecOps2026`), the default public network access was revoked. The built-in PaaS firewall was reconfigured to enforce strict network isolation, allowing access exclusively from authorized, specific IP addresses. 
+
+Furthermore, to eliminate SOC blind spots, Azure Diagnostic Settings were engineered to continuously forward `AuditEvent` logs directly into the Microsoft Sentinel workspace (`sentinel-logs-vault`). This architecture ensures that any attempt to read, create, or modify the Customer-Managed Key (CMK) generates immutable telemetry data, enabling proactive threat hunting and automated incident response within the SIEM.
+
+> *Proof of Architecture: Diagnostic Settings routing Key Vault Audit Events to Microsoft Sentinel.*
+
+<img width="1914" height="1032" alt="image" src="https://github.com/user-attachments/assets/375001df-e4b5-4d70-a656-421951784e62" />
+
+
+**Skills Applied:** PaaS Security, Network Isolation (Firewall), SIEM Integration (Log Analytics), Telemetry Engineering, Microsoft Sentinel.
+
