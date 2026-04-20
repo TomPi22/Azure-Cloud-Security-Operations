@@ -312,15 +312,19 @@ Foi implementado um **Recovery Services Vault** configurado com **Imutabilidade 
 **Framework & Threat Alignment:**
 * **Security Architecture:** Just-in-Time (JIT) access and Identity Lifecycle Management.
 * **Infosec Skills Playbook:** Scaling cloud identity governance and minimizing manual provisioning errors.
+* **Cybersecurity Forecast 2026:** Mitigation of "Shadow Agents" and rigorous control of temporary identities to prevent attacker persistence.
 
 ### Execution
-Relying on manual group assignments creates a high risk of Privilege Creep. To mitigate this, an **Access Package** (`ZeroTrust-Auditor-Onboarding`) was engineered using Entra ID Entitlement Management. 
+Relying on manual group assignments creates a high risk of "Privilege Creep". To mitigate this, an **Access Package** (`ZeroTrust-Auditor-Onboarding`) was engineered using Entra ID Entitlement Management. 
 
-This architecture bundles the necessary Azure resources and Security Groups into a single requestable item. It strictly enforces a multi-stage approval workflow and implements a hard 30-day lifecycle expiration. This ensures that third-party auditors or transient workers only retain access for the exact duration of their contract, automatically severing permissions without relying on human intervention from the IT desk.
+This architecture bundles the necessary Azure resources and Security Groups into a single requestable item. It strictly enforces a multi-stage approval workflow and implements a hard 30-day lifecycle expiration. This ensures that third-party auditors or transient workers only retain access for the exact duration of their need, automatically severing permissions without relying on human intervention from the IT desk.
 
-> *Proof of Architecture: Entra ID Access Package overview detailing resource assignments and lifecycle policies.*
-
+> *Architectural Evidence: Access Package overview detailing resource assignments and lifecycle policies.*
 <img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/1db8d2ce-a381-43ae-afac-db2ee173286c" />
+
+<img width="1905" height="873" alt="image" src="https://github.com/user-attachments/assets/5d8e96a4-fc6b-4df6-8d15-aed1e2d7a4b6" />
+
+<img width="1912" height="653" alt="image" src="https://github.com/user-attachments/assets/cb3129ff-1688-481c-9b4e-3c1ede884734" />
 
 
 **Skills Applied:** Identity Governance, Entitlement Management, Access Packages, Lifecycle Automation, Zero Trust Provisioning, RBAC.
