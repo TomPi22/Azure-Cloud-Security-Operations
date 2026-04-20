@@ -345,8 +345,7 @@ Within the vault, a 2048-bit RSA **Customer-Managed Key (CMK)** was forged. This
 
 > *Proof of Architecture: Generation of the RSA 2048-bit Customer-Managed Key.*
 
-<img width="1918" height="1035" alt="image" src="https://github.com/user-attachments/assets/88a509fe-f9ee-4a58-b6d1-a5584a8620ba" />
-
+<img width="1910" height="1023" alt="image" src="https://github.com/user-attachments/assets/7775446a-3a29-4fb6-9af8-1cbd6b655842" />
 
 
 **Skills Applied:** Azure Key Vault, Cryptography (RSA/CMK), Data-Plane Security, Vault Access Policies, Zero Trust Data Protection.
