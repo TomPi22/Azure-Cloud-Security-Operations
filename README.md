@@ -302,3 +302,25 @@ Foi implementado um **Recovery Services Vault** configurado com **Imutabilidade 
 <img width="1918" height="1030" alt="image" src="https://github.com/user-attachments/assets/258e7ce2-fa51-41f3-af9b-6a77446da522" />
 
 **Skills Applied:** Disaster Recovery (DR) Architecture, Backup Immutability, Ransomware Defense & Mitigation, Business Continuity, Zero Trust Data Resiliency.
+
+
+
+## 🔐 Project 20: Identity Governance & Entitlement Management (Access Packages)
+
+**Objective:** Streamline secure onboarding and enforce Zero Trust principles by architecting automated, approval-based Access Packages for privileged roles and external auditors.
+
+**Framework & Threat Alignment:**
+* **Security Architecture:** Just-in-Time (JIT) access and Identity Lifecycle Management.
+* **Infosec Skills Playbook:** Scaling cloud identity governance and minimizing manual provisioning errors.
+
+### Execution
+Relying on manual group assignments creates a high risk of Privilege Creep. To mitigate this, an **Access Package** (`ZeroTrust-Auditor-Onboarding`) was engineered using Entra ID Entitlement Management. 
+
+This architecture bundles the necessary Azure resources and Security Groups into a single requestable item. It strictly enforces a multi-stage approval workflow and implements a hard 30-day lifecycle expiration. This ensures that third-party auditors or transient workers only retain access for the exact duration of their contract, automatically severing permissions without relying on human intervention from the IT desk.
+
+> *Proof of Architecture: Entra ID Access Package overview detailing resource assignments and lifecycle policies.*
+
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/1db8d2ce-a381-43ae-afac-db2ee173286c" />
+
+
+**Skills Applied:** Identity Governance, Entitlement Management, Access Packages, Lifecycle Automation, Zero Trust Provisioning, RBAC.
