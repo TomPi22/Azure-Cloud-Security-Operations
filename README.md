@@ -339,7 +339,7 @@ This architecture bundles the necessary Azure resources and Security Groups into
 * **AZ-500 / SANS:** Ensuring confidentiality and sovereignty over PaaS encryption keys.
 
 ### Execution
-To comply with strict data sovereignty requirements, an Azure Key Vault (`KVDublinSecOps2026`) was deployed. A tactical pivot from RBAC to a **Vault Access Policy** was executed to ensure immediate, cache-independent granting of cryptographic permissions to the Security Admin. 
+To comply with strict data sovereignty requirements, an Azure Key Vault ('KVDublinSecOps2026') was deployed. A tactical pivot from RBAC to a **Vault Access Policy** was executed to ensure immediate, cache-independent granting of cryptographic permissions to the Security Admin. 
 
 Within the vault, a 2048-bit RSA **Customer-Managed Key (CMK)** was forged. This "Master Key" ensures that connected PaaS resources (like Storage Accounts) are encrypted with a key controlled exclusively by the tenant. Consequently, even in the event of a cloud provider breach or a government subpoena directed at Microsoft, the underlying data remains cryptographically inaccessible without this specific key.
 
