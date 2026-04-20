@@ -42,8 +42,6 @@ Deep diving into the authentication details reveals the exact point of failure. 
 **Skills Applied:** Identity and Access Management (IAM), Microsoft Entra ID P2, Zero Trust Principles, Log Analysis, Security Policy Enforcement.
 
 
----
-
 ## ⏱️ Project 9: Zero Standing Privileges & Just-In-Time (JIT) Access (Azure PIM)
 
 **Objective:** Mitigate the risk of compromised administrative accounts by eliminating permanent access (Standing Privileges). Implemented Azure Privileged Identity Management (PIM) to enforce Just-In-Time (JIT) role elevation.
@@ -104,7 +102,6 @@ The `MITRE-User-Risk-PasswordReset` policy is configured to intercept any authen
 **Skills Applied:** Threat Intelligence Integration, Conditional Access User Risk, Automated Incident Remediation (SOAR concepts), Credential Access Mitigation.
 
 
----
 
 ## 🔗 Project 12: SIEM Integration & Centralized Visibility (Microsoft Sentinel)
 
@@ -127,7 +124,6 @@ By executing targeted KQL (Kusto Query Language) queries, the SOC can instantly 
 **Skills Applied:** SIEM Configuration, Data Connector Engineering, KQL (Kusto Query Language), Security Operations (SecOps), Alert Triage.
 
 
----
 
 ## ⚖️ Project 13: Identity Governance & Automated Access Reviews
 
@@ -155,7 +151,6 @@ Utilizing Azure's "Inactive User" telemetry, the system provides reviewers with 
 
 **Skills Applied:** Identity Governance, Compliance Automation (ISO/GDPR), Access Review Orchestration, Risk Mitigation.
 
----
 
 ## 🛡️ Project 14: Cloud Workload Protection Platform (CWPP) via Microsoft Defender
 
@@ -265,35 +260,35 @@ The workflow operates on a zero-latency containment strategy. Upon the generatio
 **Skills Applied:** Microsoft Sentinel, SOAR, Azure Logic Apps, API Integrations, Incident Containment, Zero Trust Automation.
 
 
-## 📊 Projeto 18: Cloud Security Posture Management (CSPM) & Conformidade
+## 📊 Project 18: Cloud Security Posture Management (CSPM) & Compliance
 
-**Objetivo:** Avaliar e melhorar continuamente a postura de segurança do ambiente em nuvem em relação a frameworks de conformidade globais (ex: CIS v8, ISO 27001) utilizando o Microsoft Defender for Cloud CSPM.
+**Objective:** Continuously assess and improve the cloud environment's security posture against global compliance frameworks (e.g., CIS v8, ISO 27001) using Microsoft Defender for Cloud CSPM.
 
-**Alinhamento com Frameworks:**
-* **Arquitetura de Segurança:** Avaliação proativa de riscos e remediação de configurações incorretas.
-* **Infosec Skills Playbook:** Auditoria e manutenção de infraestrutura de nuvem segura.
+**Framework Alignment:**
+* **Security Architecture:** Proactive risk assessment and misconfiguration remediation.
+* **Infosec Skills Playbook:** Auditing and maintaining secure cloud infrastructure.
 
-### Execução
-Utilizando o motor de CSPM do Defender, o **Secure Score** do tenant foi analisado em tempo real. Configurações incorretas de alta prioridade — como portas de gestão (RDP/SSH) expostas e falta de MFA em contas privilegiadas — foram mapeadas para fluxos de remediação. Esta implementação demonstra a transição de um modelo de segurança reativo para um modelo de endurecimento (hardening) proativo, essencial para arquiteturas modernas de governança.
+### Execution
+Utilizing the Defender CSPM engine, the tenant's **Secure Score** was analyzed in real-time. High-priority misconfigurations—such as exposed management ports (RDP/SSH) and the absence of MFA on privileged accounts—were mapped to remediation workflows. This implementation demonstrates the transition from a reactive security model to proactive hardening, which is essential for modern governance architectures.
 
-> *Evidência de Arquitetura: Painel de Secure Score e Recomendações de Conformidade.*
-
+> *Proof of Architecture: Secure Score dashboard and Compliance Recommendations.*
 <img width="1918" height="1028" alt="image" src="https://github.com/user-attachments/assets/698abc76-dd3a-4e8f-a3c6-f7fc9e0c4c2c" />
 
 **Skills Applied:** Cloud Security Posture Management (CSPM), Compliance Auditing (ISO 27001 / CIS Controls), Risk Assessment & Remediation, Microsoft Defender for Cloud, Security Hardening.
 
-## 💾 Projeto 19: Resiliência contra Ransomware & Arquitetura de Cofre Imutável
 
-**Objetivo:** Arquitetar uma estratégia de Recuperação de Desastres (DR) e Resiliência de Dados capaz de resistir a ataques de Ransomware e campanhas de dupla extorsão.
+## 💾 Project 19: Ransomware Resilience & Immutable Vault Architecture
 
-**Alinhamento com Frameworks & Ameaças:**
-* **Cybersecurity Forecast 2026:** Grupos criminosos focarão na destruição de backups e infraestrutura de virtualização para maximizar o impacto da extorsão.
-* **NIST CSF (Recover - RC):** Garantir a restauração de serviços mesmo após comprometimento total da conta administrativa.
+**Objective:** Architect a Disaster Recovery (DR) and Data Resilience strategy capable of withstanding Ransomware attacks and double-extortion campaigns.
 
-### Execução
-Foi implementado um **Recovery Services Vault** configurado com **Imutabilidade (Vault Immutability)** e **Soft-Delete**. Esta camada de proteção Zero Trust garante que, mesmo que um atacante obtenha credenciais de Administrador Global, os dados de backup permaneçam inalteráveis e impossíveis de excluir durante o período de retenção definido. Esta arquitetura é o pilar final da continuidade de negócio para operações críticas de agrotecnologia e serviços em nuvem.
+**Framework & Threat Alignment:**
+* **Cybersecurity Forecast 2026:** Threat actors will increasingly target backups and virtualization infrastructure to maximize the impact of extortion.
+* **NIST CSF (Recover - RC):** Ensure the restoration of services even after total compromise of an administrative account.
 
-> *Evidência de Arquitetura: Configurações de Imutabilidade e Segurança do Recovery Vault.*
+### Execution
+A **Recovery Services Vault** was deployed and configured with **Vault Immutability** and **Soft-Delete**. This Zero Trust protection layer ensures that even if an attacker obtains Global Administrator credentials, backup data remains unalterable and impossible to delete during the defined retention period. This architecture acts as the ultimate pillar of business continuity for critical operations and cloud services.
+
+> *Proof of Architecture: Immutability and Security Settings of the Recovery Vault.*
 
 <img width="1917" height="1030" alt="image" src="https://github.com/user-attachments/assets/49d2603b-96ba-4ec3-9328-077544394bcc" />
 
