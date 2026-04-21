@@ -33,7 +33,7 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 
 ---
 
-#project-8
+##project-8
 ## 🛡️ Project 8: Zero Trust Architecture & Geofencing (Conditional Access)
 
 **Objective:** Implement a Zero Trust perimeter using Microsoft Entra ID (formerly Azure AD) Conditional Access Policies to protect administrative accounts from foreign unauthorized access, even in the event of credential compromise.
