@@ -10,16 +10,30 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 
 ---
 
-## 📑 Architecture Index (Table of Contents)
+## 🗺️ Strategic Roadmap & Project Index
+*Click on a project to jump directly to the technical implementation.*
 
-* [Fase 1: Cloud Security Fundamentals (Cybersecurity Beginner)](#fase-1-cloud-security-fundamentals-cybersecurity-beginner)
-* [Fase 2: Identity Governance & Zero Trust Architecture (Cloud Security Engineer)](#fase-2-identity-governance--zero-trust-architecture-cloud-security-engineer)
-* [Fase 3: Advanced SOC Operations & Threat Hunting (SOC Analyst)](#fase-3-advanced-soc-operations--threat-hunting-soc-analyst)
-* [Fase 4: 2026 Threat Landscape & Automation (Security Architect)](#fase-4-2026-threat-landscape--automation-security-architect)
+### 📂 Phase 1: Identity & Governance (Entra ID / SC-300)
+* [Project 8: Zero Trust & Geofencing (Conditional Access)](#project-8)
+* [Project 9: Just-In-Time Administration (PIM)](#project-9)
+* [Project 20: Identity Governance & Access Packages (P2 Features)](#project-20)
+* [Project 23: Data Sovereignty & GDPR Compliance (Purview)](#project-23)
+
+### 📂 Phase 2: Infrastructure Hardening & Data Security (AZ-500)
+* [Project 18: Security Posture Management (CSPM) & Secure Score](#project-18)
+* [Project 19: Anti-Ransomware Architecture (Immutable Vaults)](#project-19)
+* [Project 21: Data-Plane Cryptography (Customer-Managed Keys)](#project-21)
+* [Project 22: Network Isolation & Private Link (PaaS Hardening)](#project-22)
+
+### 📂 Phase 3: Modern SOC Operations & SIEM/XDR (SC-200)
+* [Project 7: Sentinel Ingestion & KQL Fundamentals](#project-7)
+* [Project 15: Purple Team Ops (Attack & Detect Simulation)](#project-15)
+* [Project 17: SOAR Automation (Logic Apps & Incident Response)](#project-17)
+* [Upcoming: Advanced KQL Hunting with Watchlists](#)
 
 ---
 
-## Fase 2: Identity Governance & Zero Trust Architecture (Cloud Security Engineer)
+#project-8
 ## 🛡️ Project 8: Zero Trust Architecture & Geofencing (Conditional Access)
 
 **Objective:** Implement a Zero Trust perimeter using Microsoft Entra ID (formerly Azure AD) Conditional Access Policies to protect administrative accounts from foreign unauthorized access, even in the event of credential compromise.
@@ -82,7 +96,6 @@ With the JIT access successfully provisioned, the architectural block is lifted,
 
 
 ## Fase 3: Advanced SOC Operations & Threat Hunting (SOC Analyst)
-
 ## 🕵️‍♂️ Project 11: Dark Web Credential Leak Mitigation (User Risk Policy)
 
 **Objective:** Architect an automated containment strategy against credential harvesting and dark web credential leaks using Entra ID Conditional Access User Risk evaluation.
