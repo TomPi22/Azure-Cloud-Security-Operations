@@ -33,6 +33,7 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 
 ---
 
+
 ##project-8
 ## 🛡️ Project 8: Zero Trust Architecture & Geofencing (Conditional Access)
 
@@ -58,6 +59,7 @@ Deep diving into the authentication details reveals the exact point of failure. 
 **Skills Applied:** Identity and Access Management (IAM), Microsoft Entra ID P2, Zero Trust Principles, Log Analysis, Security Policy Enforcement.
 
 
+##project-9
 ## ⏱️ Project 9: Zero Standing Privileges & Just-In-Time (JIT) Access (Azure PIM)
 
 **Objective:** Mitigate the risk of compromised administrative accounts by eliminating permanent access (Standing Privileges). Implemented Azure Privileged Identity Management (PIM) to enforce Just-In-Time (JIT) role elevation.
