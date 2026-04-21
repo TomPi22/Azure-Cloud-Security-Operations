@@ -1,8 +1,10 @@
 # Azure Cloud Security Operations
 
-Welcome to my Cloud Security portfolio. This repository documents my hands-on experience and architectural implementations in Microsoft Azure, focusing on Identity and Access Management (IAM), Threat Detection (SIEM), and Zero Trust principles. 
+Welcome to my Cloud Security portfolio. This repository documents my hands-on experience and architectural implementations in Microsoft Azure, focusing on Identity and Access Management (IAM), Security Information and Environment (SIEM), and cloud security ingenuity focused on resilient infrastructure such as Zero Trust governance and automated threat detection in the Microsoft Azure ecosystem.
 
-These projects align with the core competencies required for SOC Analyst and Cloud Security Engineering roles, drawing upon frameworks from CompTIA Security+, AZ-900, and AZ-500.
+This repository demonstrates end-to-end security implementations aligned with NIST CSF, ISO 27001, and GDPR standards, targeting highly compliant environments (EU/DPC).
+
+Validation of essential competencies for SC-100, AZ-500, and SC-200 certifications through hands-on architectural labs.
 
 > 🔗 **[For my foundational on-premises infrastructure and NOC projects (Cybersecurity Beginner), click here.](https://github.com/TomPi22/IT_Support_HomeLab)**
 
