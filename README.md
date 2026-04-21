@@ -366,3 +366,29 @@ Furthermore, to eliminate SOC blind spots, Azure Diagnostic Settings were engine
 
 **Skills Applied:** PaaS Security, Network Isolation (Firewall), SIEM Integration (Log Analytics), Telemetry Engineering, Microsoft Sentinel.
 
+
+## 🇪🇺 Project 23: Resilient Data Governance, Asset Classification & GDPR Compliance
+
+**Objective:** Architect a resilient Data Governance strategy by implementing strict Asset Classification and Data Loss Prevention (DLP) controls to satisfy GDPR and ISO 27001 requirements within the Microsoft Purview ecosystem.
+
+**Framework & Certification Alignment:**
+* **Regulatory Compliance:** GDPR (EU Data Protection Regulation), aligning with DPC (Ireland) guidelines.
+* **Security Frameworks:** ISO 27001 (Control A.8.2.1 - Classification of Information), NIST CSF (Protect - PR.DS).
+* **Certifications:** Microsoft SC-100 (Cybersecurity Architect), AZ-500 (Cloud Security).
+
+### Execution
+To ensure continuous compliance in a dynamic cloud environment, a decoupled, two-phased data protection architecture was deployed via Microsoft Purview, demonstrating resilience against backend cryptographic propagation delays.
+
+1. **Asset Classification (ISO 27001):** A custom Information Protection Sensitivity Label (`Highly Confidential - GDPR / PII`) was engineered and published. This enforces the critical first step of cloud governance: identifying and visually tagging high-risk assets across the organization's tenant.
+2. **Data Loss Prevention (GDPR):** Independent of the encryption engine, a robust DLP Policy was architected using the European Union template. This policy actively inspects traffic across SharePoint and OneDrive, automatically detecting and intercepting the unauthorized external sharing of EU identifiers (e.g., National IDs, Passports, Financial data).
+
+This dual-layer approach guarantees that even during infrastructure synchronization periods, the organization maintains a defensible compliance posture, effectively mitigating the risk of regulatory fines and data exfiltration highlighted in the Cybersecurity Forecast 2026.
+
+> *Proof of Architecture: Sensitivity Label deployment and Active EU GDPR DLP Policy within Microsoft Purview.*
+
+<img width="1912" height="1032" alt="image" src="https://github.com/user-attachments/assets/ff919571-8b26-4325-93e4-d09dc565715d" />
+
+<img width="1909" height="1033" alt="image" src="https://github.com/user-attachments/assets/aa7756bd-43be-4ff5-83fe-797867566ad7" />
+
+
+**Skills Applied:** Microsoft Purview, Data Loss Prevention (DLP), GDPR Compliance Strategy, Asset Classification (ISO 27001), Architectural Resilience, Cloud Governance.
