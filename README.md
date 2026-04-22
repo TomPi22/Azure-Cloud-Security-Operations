@@ -30,7 +30,7 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 * [Project 7: Sentinel Ingestion & KQL Fundamentals](https://github.com/TomPi22/IT_Support_HomeLab#project-7-cloud-siem--threat-detection---microsoft-sentinel--kql)
 * [Project 15: Purple Team Ops (Attack & Detect Simulation)](#project-15)
 * [Project 17: SOAR Automation (Logic Apps & Incident Response)](#project-17)
-* [Upcoming: Roadmap: Advanced Threat Hunting via KQL and Watchlists](#)
+
 
 
 ---
