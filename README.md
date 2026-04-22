@@ -4,7 +4,7 @@ Welcome to my Cloud Security portfolio. This repository documents my hands-on ex
 
 This repository demonstrates end-to-end security implementations aligned with NIST CSF, ISO 27001, and GDPR standards, targeting highly compliant environments (EU/DPC).
 
-Validation of essential competencies for SC-100, AZ-500, and SC-200 certifications through hands-on architectural labs.
+Validation of essential competencies for SC-100, AZ-500, and SC-200 and SC-300 certifications through hands-on architectural labs.
 
 > 🔗 **[For my foundational on-premises infrastructure and NOC projects (Cybersecurity Beginner), click here.](https://github.com/TomPi22/IT_Support_HomeLab)**
 
