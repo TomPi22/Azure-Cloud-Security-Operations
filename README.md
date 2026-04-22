@@ -24,7 +24,7 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 * [Project 19: Anti-Ransomware Architecture (Immutable Vaults)](#project-19)
 * [Project 21: Data-Plane Cryptography (Customer-Managed Keys)](#project-21)
 * [Project 22: Network Isolation & Private Link (PaaS Hardening)](#project-22)
-* [Projeto 24: Arquitetura de Dados Soberana (Integração CMK & Link Privado)](#projeto-24)
+* [Projeto 24: Arquitetura de Dados Soberana (Integração CMK & Link Privado)](#project-24)
 
 ### 📂 Phase 3: Modern SOC Operations & SIEM/XDR (SC-200)
 * [Project 7: Sentinel Ingestion & KQL Fundamentals](https://github.com/TomPi22/IT_Support_HomeLab#project-7-cloud-siem--threat-detection---microsoft-sentinel--kql)
