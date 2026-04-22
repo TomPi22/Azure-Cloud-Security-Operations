@@ -24,12 +24,13 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 * [Project 19: Anti-Ransomware Architecture (Immutable Vaults)](#project-19)
 * [Project 21: Data-Plane Cryptography (Customer-Managed Keys)](#project-21)
 * [Project 22: Network Isolation & Private Link (PaaS Hardening)](#project-22)
+* [Projeto 24: Arquitetura de Dados Soberana (Integração CMK & Link Privado)](#projeto-24)
 
 ### 📂 Phase 3: Modern SOC Operations & SIEM/XDR (SC-200)
 * [Project 7: Sentinel Ingestion & KQL Fundamentals](https://github.com/TomPi22/IT_Support_HomeLab#project-7-cloud-siem--threat-detection---microsoft-sentinel--kql)
 * [Project 15: Purple Team Ops (Attack & Detect Simulation)](#project-15)
 * [Project 17: SOAR Automation (Logic Apps & Incident Response)](#project-17)
-* [Upcoming: Advanced KQL Hunting with Watchlists](#)
+* [Upcoming: Roadmap: Advanced Threat Hunting via KQL and Watchlists](#)
 
 
 ---
@@ -446,6 +447,7 @@ This dual-layer approach guarantees that even during infrastructure synchronizat
 ---
 
 
+## project-24
 ## 🏆 Project 24: Sovereign Data Architecture (CMK & Private Link Integration)
 
 **Objective:** Architect a high-security data fortress by integrating Storage encryption with Customer-Managed Keys (CMK) and enforcing absolute network isolation via Private Endpoints.
