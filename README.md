@@ -32,6 +32,13 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 * [Project 17: SOAR Automation (Logic Apps & Incident Response)](#project-17)
 * Upcoming: Roadmap: Advanced Threat Hunting via KQL and Watchlists
 
+### 📂 Phase 4: Phase 4: Advanced SOC & Identity Defense
+* [Project 11: Dark Web Credential Leak Mitigation (User Risk Policy)](#project-11)
+* [Project 12: SIEM Integration & Centralized Visibility (Microsoft Sentinel)](#project-12)
+* [Project 13: Identity Governance & Automated Access Reviews](#project-13)
+* [Project 14: Cloud Workload Protection Platform (CWPP) via Microsoft Defender](#project-14)
+* [Project 16: Defeating AI-Driven Social Engineering (Phishing-Resistant MFA)](#project-16)
+
 
 ---
 
@@ -102,7 +109,11 @@ With the JIT access successfully provisioned, the architectural block is lifted,
 **Skills Applied:** Privileged Access Management (PAM), Azure PIM, JIT Access, NIST PR.AC, Audit Compliance.
 
 
+---
+
+
 ## Phase 3: Advanced SOC Operations & Threat Hunting (SOC Analyst)
+## project-11
 ## 🕵️‍♂️ Project 11: Dark Web Credential Leak Mitigation (User Risk Policy)
 
 **Objective:** Architect an automated containment strategy against credential harvesting and dark web credential leaks using Entra ID Conditional Access User Risk evaluation.
@@ -124,7 +135,10 @@ The `MITRE-User-Risk-PasswordReset` policy is configured to intercept any authen
 **Skills Applied:** Threat Intelligence Integration, Conditional Access User Risk, Automated Incident Remediation (SOAR concepts), Credential Access Mitigation.
 
 
+---
 
+
+## project-12
 ## 🔗 Project 12: SIEM Integration & Centralized Visibility (Microsoft Sentinel)
 
 **Objective:** Centralize threat intelligence and security alerts by ingesting Microsoft Entra ID Protection telemetry into Microsoft Sentinel (SIEM) for unified SOC monitoring and incident response.
@@ -146,7 +160,10 @@ By executing targeted KQL (Kusto Query Language) queries, the SOC can instantly 
 **Skills Applied:** SIEM Configuration, Data Connector Engineering, KQL (Kusto Query Language), Security Operations (SecOps), Alert Triage.
 
 
+---
 
+
+## project-13
 ## ⚖️ Project 13: Identity Governance & Automated Access Reviews
 
 **Objective:** Implement a continuous governance framework to eliminate "Privilege Creep" by automating the periodic re-validation of user access rights, specifically targeting sensitive security groups.
@@ -174,6 +191,10 @@ Utilizing Azure's "Inactive User" telemetry, the system provides reviewers with 
 **Skills Applied:** Identity Governance, Compliance Automation (ISO/GDPR), Access Review Orchestration, Risk Mitigation.
 
 
+---
+
+
+## project-14
 ## 🛡️ Project 14: Cloud Workload Protection Platform (CWPP) via Microsoft Defender
 
 **Objective:** Secure IaaS (Infrastructure as a Service) resources by enabling automated threat detection, vulnerability assessment, and malware defense across all Azure Virtual Machines.
@@ -234,8 +255,11 @@ Because of the architectural pipeline established in Project 12, this Threat Int
 **Skills Applied:** Red Teaming (Hydra, Brute Force), Blue Teaming, Honeypot Deployment, Incident Detection, MITRE ATT&CK Mapping.
 
 
-## Fase 4: 2026 Threat Landscape & Automation (Security Architect)
+---
 
+
+## Fase 4: 2026 Threat Landscape & Automation (Security Architect)
+## project-16
 ## 🛡️ Project 16: Defeating AI-Driven Social Engineering (Phishing-Resistant MFA)
 
 **Objective:** Mitigate the risk of advanced social engineering attacks, such as AI voice cloning (vishing) and MFA bypass, by enforcing Phishing-Resistant Authentication Strengths via Conditional Access.
