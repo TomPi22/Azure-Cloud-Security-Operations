@@ -26,7 +26,7 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 * [Project 22: Network Isolation & Private Link (PaaS Hardening)](#project-22)
 
 ### 📂 Phase 3: Modern SOC Operations & SIEM/XDR (SC-200)
-* [Project 7: Sentinel Ingestion & KQL Fundamentals] (https://github.com/TomPi22/IT_Support_HomeLab#project-7-cloud-siem--threat-detection---microsoft-sentinel--kql #project-7)
+* [Project 7: Sentinel Ingestion & KQL Fundamentals](https://github.com/TomPi22/IT_Support_HomeLab#project-7-cloud-siem--threat-detection---microsoft-sentinel--kql) #project-7
 * [Project 15: Purple Team Ops (Attack & Detect Simulation)](#project-15)
 * [Project 17: SOAR Automation (Logic Apps & Incident Response)](#project-17)
 * [Upcoming: Advanced KQL Hunting with Watchlists](#)
