@@ -26,7 +26,7 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 * [Project 22: Network Isolation & Private Link (PaaS Hardening)](#project-22)
 
 ### 📂 Phase 3: Modern SOC Operations & SIEM/XDR (SC-200)
-* [Project 7: Sentinel Ingestion & KQL Fundamentals](#project-7)
+* [Project 7: Sentinel Ingestion & KQL Fundamentals](https://github.com/TomPi22/IT_Support_HomeLab#project-7-cloud-siem--threat-detection---microsoft-sentinel--kql#project-7)
 * [Project 15: Purple Team Ops (Attack & Detect Simulation)](#project-15)
 * [Project 17: SOAR Automation (Logic Apps & Incident Response)](#project-17)
 * [Upcoming: Advanced KQL Hunting with Watchlists](#)
@@ -203,6 +203,8 @@ With this architecture in place, any compute workload deployed for future NOC/SO
 
 ---
 
+
+## project-15
 ## ⚔️ Project 15: Purple Team Operations (Brute Force Simulation vs. CWPP)
 
 **Objective:** Validate the efficacy of the Cloud Workload Protection Platform (CWPP) and SIEM ingestion by executing a controlled Red Team brute-force attack against an intentionally vulnerable IaaS honeypot.
@@ -258,6 +260,10 @@ The policy strictly mandates **Phishing-Resistant MFA**. This configuration expl
 **Skills Applied:** Advanced Conditional Access, Zero Trust Architecture, Identity and Access Management (IAM), Phishing-Resistant MFA, Threat Mitigation (AI-driven attacks).
 
 
+---
+
+
+## project-17
 ## 🤖 Project 17: Automated Incident Response (SOAR Playbooks)
 
 **Objective:** Drastically reduce the Mean Time to Respond (MTTR) to critical security incidents by engineering automated containment workflows using Microsoft Sentinel SOAR (Security Orchestration, Automation, and Response) capabilities.
@@ -302,6 +308,10 @@ Utilizing the Defender CSPM engine, the tenant's **Secure Score** was analyzed i
 **Skills Applied:** Cloud Security Posture Management (CSPM), Compliance Auditing (ISO 27001 / CIS Controls), Risk Assessment & Remediation, Microsoft Defender for Cloud, Security Hardening.
 
 
+---
+
+
+## project-19
 ## 💾 Project 19: Ransomware Resilience & Immutable Vault Architecture
 
 **Objective:** Architect a Disaster Recovery (DR) and Data Resilience strategy capable of withstanding Ransomware attacks and double-extortion campaigns.
@@ -353,6 +363,10 @@ This architecture bundles the necessary Azure resources and Security Groups into
 **Skills Applied:** Identity Governance, Entitlement Management, Access Packages, Lifecycle Automation, Zero Trust Provisioning, RBAC.
 
 
+---
+
+
+## project-21
 ## 🗝️ Project 21: Data-Plane Security & Cryptography (Customer-Managed Keys)
 
 **Objective:** Secure data at rest by architecting an Azure Key Vault and generating a Customer-Managed Key (CMK), shifting cryptographic control from the cloud provider (Microsoft) to the tenant.
@@ -373,7 +387,10 @@ Within the vault, a 2048-bit RSA **Customer-Managed Key (CMK)** was forged. This
 **Skills Applied:** Azure Key Vault, Cryptography (RSA/CMK), Data-Plane Security, Vault Access Policies, Zero Trust Data Protection.
 
 
+---
 
+
+## project-22
 ## 👁️ Project 22: PaaS Network Isolation & SIEM Telemetry
 
 **Objective:** Eliminate public attack surfaces on Platform-as-a-Service (PaaS) resources and establish centralized SOC visibility by routing cryptographic audit logs to Microsoft Sentinel.
