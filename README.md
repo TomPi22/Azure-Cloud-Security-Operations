@@ -31,10 +31,11 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 * [Project 17: SOAR Automation (Logic Apps & Incident Response)](#project-17)
 * [Upcoming: Advanced KQL Hunting with Watchlists](#)
 
+
 ---
 
 
-##project-8
+## project-8
 ## 🛡️ Project 8: Zero Trust Architecture & Geofencing (Conditional Access)
 
 **Objective:** Implement a Zero Trust perimeter using Microsoft Entra ID (formerly Azure AD) Conditional Access Policies to protect administrative accounts from foreign unauthorized access, even in the event of credential compromise.
@@ -59,7 +60,10 @@ Deep diving into the authentication details reveals the exact point of failure. 
 **Skills Applied:** Identity and Access Management (IAM), Microsoft Entra ID P2, Zero Trust Principles, Log Analysis, Security Policy Enforcement.
 
 
-##project-9
+---
+
+
+## project-9
 ## ⏱️ Project 9: Zero Standing Privileges & Just-In-Time (JIT) Access (Azure PIM)
 
 **Objective:** Mitigate the risk of compromised administrative accounts by eliminating permanent access (Standing Privileges). Implemented Azure Privileged Identity Management (PIM) to enforce Just-In-Time (JIT) role elevation.
@@ -277,6 +281,10 @@ The workflow operates on a zero-latency containment strategy. Upon the generatio
 **Skills Applied:** Microsoft Sentinel, SOAR, Azure Logic Apps, API Integrations, Incident Containment, Zero Trust Automation.
 
 
+---
+
+
+## project-18
 ## 📊 Project 18: Cloud Security Posture Management (CSPM) & Compliance
 
 **Objective:** Continuously assess and improve the cloud environment's security posture against global compliance frameworks (e.g., CIS v8, ISO 27001) using Microsoft Defender for Cloud CSPM.
@@ -316,7 +324,10 @@ A **Recovery Services Vault** was deployed and configured with **Vault Immutabil
 **Skills Applied:** Disaster Recovery (DR) Architecture, Backup Immutability, Ransomware Defense & Mitigation, Business Continuity, Zero Trust Data Resiliency.
 
 
+---
 
+
+## project-20
 ## 🔐 Project 20: Identity Governance & Entitlement Management (Access Packages)
 
 **Objective:** Streamline secure onboarding and enforce Zero Trust principles by architecting automated, approval-based Access Packages for privileged roles and external auditors.
@@ -384,6 +395,10 @@ Furthermore, to eliminate SOC blind spots, Azure Diagnostic Settings were engine
 **Skills Applied:** PaaS Security, Network Isolation (Firewall), SIEM Integration (Log Analytics), Telemetry Engineering, Microsoft Sentinel.
 
 
+---
+
+
+## project-23
 ## 🇪🇺 Project 23: Resilient Data Governance, Asset Classification & GDPR Compliance
 
 **Objective:** Architect a resilient Data Governance strategy by implementing strict Asset Classification and Data Loss Prevention (DLP) controls to satisfy GDPR and ISO 27001 requirements within the Microsoft Purview ecosystem.
