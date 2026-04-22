@@ -1,6 +1,6 @@
 # Azure Cloud Security Operations
 
-Welcome to my Cloud Security portfolio. This repository documents my hands-on experience and architectural implementations in Microsoft Azure, focusing on Identity and Access Management (IAM), Security Information and Environment (SIEM), and cloud security ingenuity focused on resilient infrastructure such as Zero Trust governance and automated threat detection in the Microsoft Azure ecosystem.
+Welcome to my Cloud Security portfolio. This repository documents my hands-on experience and architectural implementations in Microsoft Azure, focusing on Identity and Access Management (IAM), Security Information and Event Management (SIEM), and cloud security ingenuity focused on resilient infrastructure such as Zero Trust governance and automated threat detection in the Microsoft Azure ecosystem.
 
 This repository demonstrates end-to-end security implementations aligned with NIST CSF, ISO 27001, and GDPR standards, targeting highly compliant environments (EU/DPC).
 
@@ -30,7 +30,7 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 * [Project 7: Sentinel Ingestion & KQL Fundamentals](https://github.com/TomPi22/IT_Support_HomeLab#project-7-cloud-siem--threat-detection---microsoft-sentinel--kql)
 * [Project 15: Purple Team Ops (Attack & Detect Simulation)](#project-15)
 * [Project 17: SOAR Automation (Logic Apps & Incident Response)](#project-17)
-
+* Upcoming: Roadmap: Advanced Threat Hunting via KQL and Watchlists
 
 
 ---
@@ -102,7 +102,7 @@ With the JIT access successfully provisioned, the architectural block is lifted,
 **Skills Applied:** Privileged Access Management (PAM), Azure PIM, JIT Access, NIST PR.AC, Audit Compliance.
 
 
-## Fase 3: Advanced SOC Operations & Threat Hunting (SOC Analyst)
+## Phase 3: Advanced SOC Operations & Threat Hunting (SOC Analyst)
 ## 🕵️‍♂️ Project 11: Dark Web Credential Leak Mitigation (User Risk Policy)
 
 **Objective:** Architect an automated containment strategy against credential harvesting and dark web credential leaks using Entra ID Conditional Access User Risk evaluation.
