@@ -32,7 +32,7 @@ Validation of essential competencies for SC-100, AZ-500, and SC-200 certificatio
 * [Project 17: SOAR Automation (Logic Apps & Incident Response)](#project-17)
 * Upcoming: Roadmap: Advanced Threat Hunting via KQL and Watchlists
 
-### 📂 Phase 4: Phase 4: Advanced SOC & Identity Defense
+### 📂 Phase 4: Advanced SOC & Identity Defense (SC-100 / SC-300)
 * [Project 11: Dark Web Credential Leak Mitigation (User Risk Policy)](#project-11)
 * [Project 12: SIEM Integration & Centralized Visibility (Microsoft Sentinel)](#project-12)
 * [Project 13: Identity Governance & Automated Access Reviews](#project-13)
@@ -112,7 +112,6 @@ With the JIT access successfully provisioned, the architectural block is lifted,
 ---
 
 
-## Phase 3: Advanced SOC Operations & Threat Hunting (SOC Analyst)
 ## project-11
 ## 🕵️‍♂️ Project 11: Dark Web Credential Leak Mitigation (User Risk Policy)
 
@@ -258,7 +257,6 @@ Because of the architectural pipeline established in Project 12, this Threat Int
 ---
 
 
-## Fase 4: 2026 Threat Landscape & Automation (Security Architect)
 ## project-16
 ## 🛡️ Project 16: Defeating AI-Driven Social Engineering (Phishing-Resistant MFA)
 
