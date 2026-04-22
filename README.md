@@ -441,3 +441,33 @@ This dual-layer approach guarantees that even during infrastructure synchronizat
 
 
 **Skills Applied:** Microsoft Purview, Data Loss Prevention (DLP), GDPR Compliance Strategy, Asset Classification (ISO 27001), Architectural Resilience, Cloud Governance.
+
+
+---
+
+
+## 🏆 Project 24: Sovereign Data Architecture (CMK & Private Link Integration)
+
+**Objective:** Architect a high-security data fortress by integrating Storage encryption with Customer-Managed Keys (CMK) and enforcing absolute network isolation via Private Endpoints.
+
+**Framework & Certification Alignment:**
+* **NIST CSF:** Protect (PR.DS) - Data Security / (PR.AC) - Identity Management.
+* **ISO 27001:** Control A.13.1 (Network Security Management) & A.18.1.5 (Cryptography).
+* **Certifications:** Microsoft SC-100 (Cybersecurity Architect) & AZ-500 (Cloud Security Engineer).
+* **Compliance:** GDPR Data Sovereignty (ensuring Irish data remains strictly within protected boundaries).
+
+### Execution
+This capstone project integrates disparate security controls into a unified, production-grade Zero Trust Data Architecture.
+
+1. **Cryptographic Handshake & Sovereignty:** A System-Assigned Managed Identity was provisioned for the Storage Account (`sairelandsecure2026`). To overcome native deployment restrictions, a manual Key Vault Access Policy was engineered, explicitly granting "Wrap/Unwrap" permissions to the storage identity through the Key Vault firewall.
+2. **Double Encryption (CMK):** Infrastructure encryption was activated in tandem with an RSA 2048-bit Customer-Managed Key (CMK) sourced from the vault. This guarantees that the organization retains absolute cryptographic control over data at rest, rendering the data inaccessible even in the event of a physical datacenter breach.
+3. **Network Stealth (Private Link):** To eliminate the public attack surface, a dedicated Virtual Network (`vnet-dublin-secops`) was deployed. All public internet access to the storage blob was permanently revoked. A **Private Endpoint** was integrated with a Private DNS Zone, ensuring that all data traffic is routed exclusively through the secure, internal Azure backbone.
+
+> *Proof of Architecture: Active CMK Encryption and Approved Private Endpoint Network Isolation.*
+
+<img width="1915" height="1026" alt="image" src="https://github.com/user-attachments/assets/c270cf27-97b7-403c-bb4c-d1f15203dbe3" />
+
+<img width="1911" height="1034" alt="image" src="https://github.com/user-attachments/assets/cb23feac-1330-4307-8699-53e2c53f7f7c" />
+
+
+**Skills Applied:** Managed Identities, Key Vault Access Policies, Storage Encryption (CMK), Private Link / Endpoints, VNET Architecture, Zero Trust Networking, Security Troubleshooting.
